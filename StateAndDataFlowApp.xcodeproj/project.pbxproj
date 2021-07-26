@@ -11,6 +11,7 @@
 		32B1C7F026AC8851003A5074 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1C7EF26AC8851003A5074 /* ContentView.swift */; };
 		32B1C7F226AC8855003A5074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B1C7F126AC8855003A5074 /* Assets.xcassets */; };
 		32B1C7F526AC8855003A5074 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B1C7F426AC8855003A5074 /* Preview Assets.xcassets */; };
+		32B1C7FD26AF2C3C003A5074 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1C7FC26AF2C3C003A5074 /* TimeCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		32B1C7F126AC8855003A5074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32B1C7F426AC8855003A5074 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32B1C7F626AC8855003A5074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B1C7FC26AF2C3C003A5074 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				32B1C7ED26AC8851003A5074 /* StateAndDataFlowAppApp.swift */,
 				32B1C7EF26AC8851003A5074 /* ContentView.swift */,
+				32B1C7FC26AF2C3C003A5074 /* TimeCounter.swift */,
 				32B1C7F126AC8855003A5074 /* Assets.xcassets */,
 				32B1C7F626AC8855003A5074 /* Info.plist */,
 				32B1C7F326AC8855003A5074 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B1C7FD26AF2C3C003A5074 /* TimeCounter.swift in Sources */,
 				32B1C7F026AC8851003A5074 /* ContentView.swift in Sources */,
 				32B1C7EE26AC8851003A5074 /* StateAndDataFlowAppApp.swift in Sources */,
 			);
