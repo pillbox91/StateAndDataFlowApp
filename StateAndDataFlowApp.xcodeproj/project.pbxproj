@@ -12,6 +12,9 @@
 		32B1C7F226AC8855003A5074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B1C7F126AC8855003A5074 /* Assets.xcassets */; };
 		32B1C7F526AC8855003A5074 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B1C7F426AC8855003A5074 /* Preview Assets.xcassets */; };
 		32B1C7FD26AF2C3C003A5074 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1C7FC26AF2C3C003A5074 /* TimeCounter.swift */; };
+		32B1C7FF26B0A096003A5074 /* RegisteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1C7FE26B0A096003A5074 /* RegisteredView.swift */; };
+		32B1C80126B0A1A8003A5074 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1C80026B0A1A7003A5074 /* UserManager.swift */; };
+		32B1C80326B0A3F0003A5074 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1C80226B0A3F0003A5074 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		32B1C7F426AC8855003A5074 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32B1C7F626AC8855003A5074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32B1C7FC26AF2C3C003A5074 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		32B1C7FE26B0A096003A5074 /* RegisteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredView.swift; sourceTree = "<group>"; };
+		32B1C80026B0A1A7003A5074 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		32B1C80226B0A3F0003A5074 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				32B1C7ED26AC8851003A5074 /* StateAndDataFlowAppApp.swift */,
+				32B1C80226B0A3F0003A5074 /* StarterView.swift */,
 				32B1C7EF26AC8851003A5074 /* ContentView.swift */,
+				32B1C7FE26B0A096003A5074 /* RegisteredView.swift */,
+				32B1C80026B0A1A7003A5074 /* UserManager.swift */,
 				32B1C7FC26AF2C3C003A5074 /* TimeCounter.swift */,
 				32B1C7F126AC8855003A5074 /* Assets.xcassets */,
 				32B1C7F626AC8855003A5074 /* Info.plist */,
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B1C7FF26B0A096003A5074 /* RegisteredView.swift in Sources */,
 				32B1C7FD26AF2C3C003A5074 /* TimeCounter.swift in Sources */,
+				32B1C80326B0A3F0003A5074 /* StarterView.swift in Sources */,
 				32B1C7F026AC8851003A5074 /* ContentView.swift in Sources */,
+				32B1C80126B0A1A8003A5074 /* UserManager.swift in Sources */,
 				32B1C7EE26AC8851003A5074 /* StateAndDataFlowAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

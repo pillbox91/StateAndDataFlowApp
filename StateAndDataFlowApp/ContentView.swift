@@ -24,13 +24,13 @@
  
  struct ButtonView: View {
     @ObservedObject var timer: TimeCounter
-    
+
     var body: some View {
         Button(action: { timer.startTimer() }) {
             Text("\(timer.buttonTitle)")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-            foregroundColor(.white)
+                .foregroundColor(.white)
         }
         .frame(width: 200, height: 60)
         .background(Color.red)
